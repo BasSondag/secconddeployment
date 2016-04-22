@@ -1,0 +1,17 @@
+<h1>Welcome</h1>
+
+<table>
+	<thead>
+		<th>Name</th>
+		<th>alias</th>
+	</thead>
+	<tbody>
+		<% @users.each do |u| %>
+			<tr><td><%= u.name %></td>
+				<td><%= u.alias %></td></tr>
+		<%end%>
+	</tbody>
+
+
+</table>
+
